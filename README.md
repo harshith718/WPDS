@@ -75,6 +75,12 @@ Included clear failure and non-coverage cases
 
 🔗 https://water-purity-wpds.my.canva.site/
 
+## Getting Started
+1. Connect Arduino UNO, pH sensor module, and probe.
+2. Upload `WPDS.ino` sketch via Arduino IDE.
+3. Open Serial Monitor at 9600 baud.
+4. View voltage, approximate pH, and classification.
+
 #License
 
 This project is provided for educational and research demonstration purposes.
