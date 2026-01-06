@@ -1,11 +1,11 @@
-WPDS – Water Purity Diagnostic System
+##WPDS – Water Purity Diagnostic System
 Overview
 
 WPDS (Water Purity Diagnostic System) is a rule-based diagnostic tool that explains why water may be unsafe and what action may help, using simple physical and chemical indicators. The system focuses on cause-based reasoning rather than declaring water “safe” or “unsafe.”
 
 WPDS is intentionally scoped to avoid false precision and does not replace laboratory testing.
 
-Hardware Demonstration – pH Sensing
+#Hardware Demonstration – pH Sensing
 
 An Arduino-based pH sensing setup is used to demonstrate relative pH classification (acidic / normal / basic). The sensor output is displayed as voltage, an approximate pH value, and a classified state.
 
@@ -31,7 +31,7 @@ Turbid water – prepared using clean soil to demonstrate physical contamination
 
 These samples were used to demonstrate sensor response and classification behavior, not chemical calibration.
 
-Decision Logic
+#Decision Logic
 
 WPDS uses simple rule-based logic based on four inputs:
 
@@ -43,7 +43,7 @@ TDS (Normal / High)
 
 Temperature treatment (Cold / Boiled)
 
-Outcomes
+#Outcomes
 
 Abnormal pH or high TDS → Chemical contamination → No simple remediation
 
@@ -53,7 +53,7 @@ All normal but not boiled → Possible biological risk → Boiling effective
 
 All normal and boiled → Reduced biological risk → Boiling effective
 
-Limitations
+#Limitations
 
 Does not certify water safety
 
@@ -71,14 +71,16 @@ Explicitly separated sensing (hardware) from reasoning (software)
 
 Included clear failure and non-coverage cases
 
-Live Demo
+#Live Demo
 
 🔗 https://water-purity-wpds.my.canva.site/
 
-License
+#License
 
 This project is provided for educational and research demonstration purposes.
 
-Project Links
+#Project Links
 
 A detailed explanation and reflections are available on the Notion project page.
+
+https://www.notion.so/WPDS-Water-Purity-Diagnostic-System-2e09325d1ab1807e800ae59106be0fd9?source=copy_link
